@@ -1,19 +1,22 @@
 
 .home-container {
-    padding: 2rem;
-    text-align: center;
-    background-color: #f5f5f5;
-  }
-  
-  .home-title {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 1rem;
-  }
-  
-  .home-description {
-    font-size: 1.2rem;
-    color: #666;
-  }
-  
+  padding: 2rem;
+  text-align: center;
+  background-color: #f5f5f5;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.home-description {
+  font-size: 1.2rem;
+  color: #666;
+}
