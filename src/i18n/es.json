@@ -1,0 +1,19 @@
+{
+    "home": {
+      "welcome": "Bienvenido a Mi Portafolio",
+      "description": "Esta es la página de inicio."
+    },
+    "about": {
+      "title": "Sobre Mí",
+      "description": "Esta es la página sobre mí."
+    },
+    "projects": {
+      "title": "Mis Proyectos",
+      "description": "Esta es la página de proyectos."
+    },
+    "contact": {
+      "title": "Contáctame",
+      "description": "Esta es la página de contacto."
+    }
+  }
+  

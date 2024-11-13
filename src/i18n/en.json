@@ -1,0 +1,19 @@
+{
+    "home": {
+      "welcome": "Welcome to My Portfolio",
+      "description": "This is the home page."
+    },
+    "about": {
+      "title": "About Me",
+      "description": "This is the about page."
+    },
+    "projects": {
+      "title": "My Projects",
+      "description": "This is the projects page."
+    },
+    "contact": {
+      "title": "Contact Me",
+      "description": "This is the contact page."
+    }
+  }
+  
