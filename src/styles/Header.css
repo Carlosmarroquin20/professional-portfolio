@@ -1,11 +1,17 @@
 
 header {
+  width: 100%;
+  height: 60px; /* Definimos una altura fija */
   background-color: #222;
   color: #fff;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 nav {
@@ -21,7 +27,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff6347; /* Color destacado para el hover */
+  color: #ff6347;
 }
 
 .language-switcher select {
