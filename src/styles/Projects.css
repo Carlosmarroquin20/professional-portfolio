@@ -1,0 +1,33 @@
+
+.projects-container {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f0f8ff;
+  }
+  
+  .projects-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .project-item {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .project-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  

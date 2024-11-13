@@ -1,12 +1,24 @@
 
+import '../styles/Projects.css';
+import { useTranslation } from 'react-i18next';
+
 function Projects() {
-    return (
-      <div>
-        <h1>My Projects</h1>
-        <p>This is the projects page.</p>
+  const { t } = useTranslation();
+
+  return (
+    <div className="projects-container">
+      <h1 className="projects-title">{t('projects.title')}</h1>
+      <div className="project-item">
+        <h3>Project 1</h3>
+        <p>Description of project 1.</p>
       </div>
-    );
-  }
-  
-  export default Projects;
-  
+      <div className="project-item">
+        <h3>Project 2</h3>
+        <p>Description of project 2.</p>
+      </div>
+      {/* Añade más proyectos según sea necesario */}
+    </div>
+  );
+}
+
+export default Projects;
