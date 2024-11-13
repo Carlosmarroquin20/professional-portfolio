@@ -1,0 +1,30 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #aaa;
+  }
+  
+  .language-switcher select {
+    padding: 0.25rem;
+    font-size: 1rem;
+    color: #f8eded;
+  }
+  
