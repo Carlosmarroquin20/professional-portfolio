@@ -1,12 +1,16 @@
+// src/pages/About.jsx
+import '../styles/About.css';
+import { useTranslation } from 'react-i18next';
 
 function About() {
-    return (
-      <div>
-        <h1>About Me</h1>
-        <p>This is the about page.</p>
-      </div>
-    );
-  }
-  
-  export default About;
-  
+  const { t } = useTranslation();
+
+  return (
+    <div className="about-container">
+      <h1 className="about-title">{t('about.title')}</h1>
+      <p className="about-description">{t('about.description')}</p>
+    </div>
+  );
+}
+
+export default About;
