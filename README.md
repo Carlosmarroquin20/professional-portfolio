@@ -63,12 +63,13 @@ Once the server is running, go to http://localhost:5173 to view the portfolio.
 ## Usage
 
 You can use this portfolio template to showcase your own skills, projects, and contact information. Customize each page (Home, About, Projects, Contact) to reflect your personal experience and achievements.
-Customizing Content
 
-    Home Page: Modify the welcome message and introduction.
-    About Page: Add details about your background, skills, and experience.
-    Projects Page: List your projects with descriptions, images, and links.
-    Contact Page: Customize the contact form or add your social media links.
+### Customizing Content
+
+- **Home Page**: Modify the welcome message and introduction.
+- **About Page**: Add details about your background, skills, and experience.
+- **Projects Page**: List your projects with descriptions, images, and links.
+- **Contact Page**: Customize the contact form or add your social media links.
 
 
 ## Author
